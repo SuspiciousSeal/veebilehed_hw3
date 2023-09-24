@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="ee">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content=""> 
+        <meta name="author" content="">
+        <title>Ostukorv</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+        <!-- minu CSS -->
+        <link rel="stylesheet" href="custom.css">
+    </head>
+    <body>
+        <!-- päis -->
+        
+        <script src="header.js"></script>
+        <!-- navigatsioon -->
+        <script src="nav.js"></script>
+        <section>
+            <!-- breadcrumb -->
+            <nav aria-label="breadcrumb" >
+                <ol class="breadcrumb bg-white my-2">
+                    <li class="breadcrumb-item"><a href="index.html">Avaleht</a></li>
+                    <li class="breadcrumb-item active">Ostukorv</li>
+                </ol>
+            </nav>
+        </section>
+        <!-- ostukorv -->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 d-flex align-items-start flex-column">
+                        <div class="mb-auto p-2"><h4>Ostukorvis on 1 toode</h4></div>    
+                        <div class="mb-auto p-2 row">
+                            <div class="col-lg-6">
+                                <img src="soap.png" width="100%">
+                            </div>
+                            <div class="col-lg-6">
+                                <p>15.99&#8364;</p>
+                                <p>Toode 1</p>
+                                    <select class="form-control col-lg-5 form-sm" id="kogus">
+                                        <option>0</option>
+                                        <option selected="selected">1</option>
+                                        <option>2</option>
+                                        <option>3</option>
+                                    </select>
+                                <br/>
+                            </div>            
+                        </div>
+                        <div class="p-2">
+                            <p>Tarne: <span class="text-primary">tasuta</span></p>
+                            <p>Kokku: <span class="text-primary">15.99&#8364;</span></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <form>
+                            <div class="form-group">
+                            <label for="inputEmail1">Email</label>
+                            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Teie meiliaadress" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="formControlInput1">Täisnimi</label>
+                                <input type="text" class="form-control" id="formControlInput1" placeholder="Teie täisnimi" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress">Aadress</label>
+                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputAddress2">Aadress 2</label>
+                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-6">
+                                    <label for="inputCity">Linn</label>
+                                    <input type="text" class="form-control" id="inputCity" required>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="inputState">Maakond</label>
+                                    <select id="inputState" class="form-control" required>
+                                        <option selected>Tartumaa</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-md-2">
+                                    <label for="inputZip">Postiindeks</label>
+                                    <input type="text" class="form-control" id="inputZip" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputShipping">Tarne</label>
+                                <select id="inputShipping" class="form-control" required>
+                                    <option selected>Tulen ise järgi</option>
+                                    <option>Smartpost</option>
+                                    <option>Omniva</option>
+                                    <option>Kuller</option>
+                                </select>
+                                <label for="inputPayment">Makseviis</label>
+                                <select id="inputPayment" class="form-control" required>
+                                    <option selected>Arve</option>
+                                    <option>Kaart</option>
+                                    <option>Swedbank</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <!-- <button class="btn btn-primary" type="submit">Submit form</button> -->
+                            <div class="p-2 mx-auto">
+                                <a href="kinnitus.html" class="btn btn-dark btn-lg mb-3">Esita tellimus</a>
+                            </div>  
+                        </form>
+                    </div>   
+                          
+                </div>   
+            </div>
+        </section>
+        <!-- jalus -->
+        <script src="footer.js"></script>         
+        <!-- jQuery, Popper.js, Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+    </body>
+</html>         
